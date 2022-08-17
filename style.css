@@ -1,0 +1,212 @@
+.card .card-img-top img {
+    height: 188px;
+    width: 240px;
+    object-fit: cover;
+    transition: all ease-in-out 0.4s;
+}
+
+.umkm-card {
+    width: 15rem;
+    height: 17rem;
+    box-shadow: 0px 4px 10px rgb(59 59 59 / 9%);
+}
+
+
+/* modal  */
+
+#product-modal-thumbnail img {
+    width: 100% !important;
+    max-height: 293px !important;
+    object-fit: cover;
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#product-modal-item .nav-link {
+    padding: 0.5rem 0.5rem !important;
+}
+
+#product-modal-item img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.shopee-btn {
+    border: 2px solid #f6422e !important;
+    border-radius: 10rem !important;
+}
+
+#product-modal-item img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.shopee-btn img {
+    min-width: 5rem !important;
+    border-radius: 0% !important;
+}
+
+
+/* isotope */
+
+
+.gallery-area .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.blog-filter {
+    margin-top: -40px;
+}
+
+.gallery-area .portfolio-filters li:hover,
+.gallery-area .portfolio-filters li.filter-active::after,
+.gallery-area .portfolio-filters li.filter-active {
+    color: #2527a5;
+}
+
+.gallery-area .portfolio-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    transition: all 0.3s ease-in-out;
+    /* border-radius: 17px; */
+    margin: 0px 2px 25px 2px;
+    position: relative;
+}
+
+.gallery-area .portfolio-filters li::after {
+    content: "";
+    position: absolute;
+    opacity: 1;
+    height: 1.5px;
+    top: 33px;
+    right: 50%;
+    left: 50%;
+    background-color: #2527a5;
+    -webkit-transition: all .3s;
+}
+
+.gallery-area .portfolio-filters li:hover::after,
+.gallery-area .portfolio-filters li.filter-active::after {
+    right: 21px;
+    left: 21px;
+}
+
+.portfolio-item {
+    margin: 15px auto;
+    position: relative;
+}
+
+/* ============================================================ card style versi kain tradisional*/
+
+.a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+}
+
+.img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;   
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.img-container::after {
+    content: "";
+    background-color: #3b3c3d;
+    top: 0;
+    bottom: 0;
+
+}
+
+.img-container img {
+    height: 241px;    
+    margin: -35px 0px 0px -70px;
+}
+
+    .inner-skew {
+        display: inline-block;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 0px;
+        font-size: 0px;
+        margin: 30px 0px 0px 0px;
+        background: #c8c2c2;
+        height: 250px;
+        width: 200px;
+    }
+
+.text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    height: 12rem;
+    padding: 115px 6px 0px 6px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.text-container h5 {
+    margin: 15px 0px 8px 0px;
+    color: #3b3c3d;
+    font-size: 18px;
+}
+
+
+
+/* Responsive */
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .a-box {        
+        width: 200px;        
+    }
+
+    .img-container {
+        height: 208px;
+        width: 154px;         
+
+    }
+    
+    .img-container img {
+        height: 240px;      
+    }
+
+    .inner-skew {
+        display: inline-block;
+        border-radius: 20px 20px 20px 20px;
+
+        overflow: hidden;                                
+        height: 250px;
+        width: 200px;
+    }
+
+    .umkm-card {
+        width: 13rem;
+        height: 17rem;        
+    }
+    
+
+    .card .card-img-top img {
+        /* height: 188px; */
+        width: 206px;        
+    }
+    
+}
